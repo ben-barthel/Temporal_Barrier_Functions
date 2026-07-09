@@ -1,0 +1,7 @@
+# TensorFlow ML pipeline for the aTTC surrogate NN.
+# Tested with Python 3.8 and TensorFlow 2.x.
+tensorflow>=2.8
+numpy
+scipy
+matplotlib
+h5py
