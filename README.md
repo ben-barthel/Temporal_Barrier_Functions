@@ -1,4 +1,4 @@
-A Temporal Barrier Framework for Collision Avoidance in Multi-Agent Autonomous Aerial Vehicles
+## A Temporal Barrier Framework for Collision Avoidance in Multi-Agent Autonomous Aerial Vehicles
 
 Reference implementation for the paper. This repository contains everything
 needed to reproduce the paper's results:
