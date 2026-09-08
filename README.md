@@ -1,4 +1,4 @@
-#A Temporal Barrier Framework for Collision Avoidance in Multi-Agent Autonomous Aerial Vehicles
+# A Temporal Barrier Framework for Collision Avoidance in Multi-Agent Autonomous Aerial Vehicles
 
 Reference implementation for all published work on aTTC-CBFs. This repository contains everything
 needed to reproduce the results from the following papers:
