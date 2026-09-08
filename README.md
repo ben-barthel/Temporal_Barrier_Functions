@@ -49,7 +49,7 @@ example_quickstart          % 3 short runs: no CBF vs HOCBF vs aTTC-CBF
 This runs a 100-second pursuit-evasion scenario under each safety filter and
 plots the trajectories side by side with collision counts.
 
-## Reproducing the paper results
+## Reproducing published results
 
 The paper's statistics come from long-horizon (T = 50,000 s) stochastic
 simulations. Each cell takes hours; run them on a workstation or cluster.
