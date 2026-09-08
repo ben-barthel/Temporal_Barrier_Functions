@@ -1,7 +1,11 @@
-# Time is Money: A Temporal Barrier Framework for Collision Avoidance in Multi-Agent Autonomous Aerial Vehicles
+#A Temporal Barrier Framework for Collision Avoidance in Multi-Agent Autonomous Aerial Vehicles
 
-Reference implementation for the paper. This repository contains everything
-needed to reproduce the paper's results:
+Reference implementation for all published work on aTTC-CBFs. This repository contains everything
+needed to reproduce the results from the following papers:
+
+https://arxiv.org/abs/2608.14239
+
+CDC Conference Paper - link coming soon
 
 - a MATLAB multi-agent flight simulator with a quadratic-program (QP)
   control-barrier-function (CBF) safety filter,
@@ -10,20 +14,7 @@ needed to reproduce the paper's results:
 - the TensorFlow training pipeline for that surrogate, and
 - the trained network used in the paper.
 
-## The idea in one paragraph
-
-Distance-based safety filters cannot distinguish between two agents that are
-close and *diverging* (safe) and two agents that are close and *converging*
-(dangerous). The natural domain in which to measure collision risk is
-**time**. We define the adversarial time-to-collision (aTTC) between agents
-i and j as the shortest time in which agent j could force a collision with
-agent i, assuming j turns and accelerates toward collision at its control
-limits. This worst-case metric is always finite (unlike constant-velocity
-TTC in 3D), encodes the vehicle dynamics, and is robust to adversarial
-intent. Computing it exactly requires integrating the dynamics forward, so
-we train a small neural network to predict it; the network is differentiable,
-which lets us use `h = aTTC(x) − τ_min` directly as a CBF inside the
-standard QP safety filter.
+*This repository was made with the help of AI*
 
 ## Repository layout
 
